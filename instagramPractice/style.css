@@ -1,0 +1,50 @@
+
+
+@font-face {font-family: "Camber";
+    src: url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.eot");
+    src: url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/6cd5748c62aa9714dc9e467be440a97a.svg#Camber") format("svg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Camber, Helvetica;
+  color: gray;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: gray;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.consent{
+  font-size: 14px;
+}
+
+.footer {
+  text-transform: uppercase;
+  color: blue;
+  text-align: center;
+}
+
+
+#copyright{
+  color: grey;
+  text-align: center;
+  margin-left: 80px;
+  font-weight: bold;
+
+}
+
+input[type="submit"] .signup{
+  color:green;
+}
